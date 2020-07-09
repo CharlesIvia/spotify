@@ -4,12 +4,10 @@ function Buttons() {
   return (
     <div>
       <div className="buttons">
-        <button className="nowbtn">GET IT NOW</button>
-        <button className="plansbtn">VIEWS PLANS</button>
+        <button className="nowbtn">GET SPOTIFY FREE</button>
       </div>
     </div>
   );
 }
 
 export default Buttons;
-
