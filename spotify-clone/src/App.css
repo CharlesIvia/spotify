@@ -39,8 +39,10 @@ body {
   text-decoration: none;
 }
 .home {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
+  position: fixed;
+  width: 100%;
 }
 .logo {
   display: flex;
