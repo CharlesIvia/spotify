@@ -26,7 +26,7 @@ body {
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
 .header {
@@ -74,4 +74,38 @@ body {
 .nav-item a {
   text-decoration: none;
   color: white;
+}
+
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.title {
+  font-size: 3.7rem;
+  color: white;
+}
+
+h3 {
+  padding-top: 1.8rem;
+}
+
+/* Button styling */
+
+.nowbtn {
+  margin-top: 1.8rem;
+  padding: 1.5rem;
+  background: rgb(29, 185, 84);
+  color: white;
+  border: none;
+  border-radius: 2.2em;
+  width: 15vw;
+  transition: background 300ms ease-in-out;
+}
+
+.nowbtn:hover {
+  background: rgb(48, 202, 102);
 }
