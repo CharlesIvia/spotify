@@ -1,4 +1,5 @@
 import React from "react";
+import Buttons from "./Buttons";
 
 function Hero() {
   return (
@@ -10,6 +11,8 @@ function Hero() {
       <div>
         <h2>Enjoy endless ad-free music - even offline.</h2>
       </div>
+
+      <Buttons />
 
       <div>
         <small>
