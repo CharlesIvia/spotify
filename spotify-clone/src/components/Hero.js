@@ -4,22 +4,18 @@ import Header from "./Header";
 
 function Hero() {
   return (
-    <div>
+    <div className="hero">
       <Header />
-      <div className="title">
-        <h1>Get 3 months of Premium for $9.99</h1>
-      </div>
+      <div className="container home-hero">
+        <div className="title">
+          <h1>Music for everyone.</h1>
+        </div>
 
-      <div>
-        <h2>Enjoy endless ad-free music - even offline.</h2>
-      </div>
+        <div>
+          <h3>Millions of songs. No credit card needed.</h3>
+        </div>
 
-      <Buttons />
-
-      <div>
-        <small>
-          *Monthly subscription fee aplies after. Offer ends Jul 30, 2020.
-        </small>
+        <Buttons />
       </div>
     </div>
   );
