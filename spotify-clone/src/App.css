@@ -1,3 +1,15 @@
-.App {
-  text-align: center;
+/* Initial styling */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 1px solid red;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
 }
