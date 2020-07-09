@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Premium from "./components/Premium";
 import Cancel from "./components/Cancel";
 import Plans from "./components/Plans";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Premium />
       <Cancel />
       <Plans />
+      <Footer />
     </div>
   );
 }
