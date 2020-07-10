@@ -109,3 +109,43 @@ h3 {
 .nowbtn:hover {
   background: rgb(48, 202, 102);
 }
+
+/* Premium component */
+
+.premium {
+  height: 70vh;
+  background: white;
+}
+
+.prem {
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 2.2rem;
+}
+
+.prem-svgs {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.svg-one {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 7rem;
+  width: 7rem;
+}
+
+.first-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+  height: 17rem;
+  width: 17rem;
+  border-radius: 50%;
+  background: rgb(238, 238, 238);
+}
