@@ -12,69 +12,90 @@ function Plans() {
     </svg>
   );
   return (
-    <div>
-      <div>
+    <div className="container plans">
+      <div className="plans-top">
         <h1>Pick your Premium</h1>
         <small>
           Listen without limits on your phone, speaker, and other devices.
         </small>
       </div>
 
-      <div className="card">
-        <div>1 month free</div>
-        <h2>Individual</h2>
-        <h3>$9.99/month after offer period</h3>
-        <h3>1 account</h3>
+      <div className="cards">
+        <div className="card">
+          <div className="free">1 month free</div>
+          <h2>Individual</h2>
+          <h3>$9.99/month after offer period</h3>
+          <h3>1 account</h3>
 
-        <div className="tick">
-          <p>{tick} Listen to music ad free</p>
-          <p>{tick} Play anywhere - even offline</p>
-          <p>{tick} On-demand playback</p>
-          <p>{tick} 2 Premium accounts for a couple under one roof</p>
-        </div>
-        <div>
-          <button>GET STARTED</button>
-        </div>
+          <div className="tick">
+            <p>{tick} Listen to music ad free</p>
+            <p>{tick} Play anywhere - even offline</p>
+            <p>{tick} On-demand playback</p>
+            <p>{tick} 2 Premium accounts for a couple under one roof</p>
+          </div>
+          <div>
+            <button>GET STARTED</button>
+          </div>
 
-        <a href="#home">Terms and conditions apply</a>
-      </div>
-
-      <div className="card">
-        <div>1 month free</div>
-        <h2>Individual</h2>
-        <h3>$9.99/month after offer period</h3>
-        <h3>1 account</h3>
-
-        <div className="tick">
-          <p>{tick} Listen to music ad free</p>
-          <p>{tick} Play anywhere - even offline</p>
-          <p>{tick} On-demand playback</p>
-          <p>{tick} 2 Premium accounts for a couple under one roof</p>
-        </div>
-        <div>
-          <button>GET STARTED</button>
+          <a href="#home">Terms and conditions apply</a>
         </div>
 
-        <a href="#home">Terms and conditions apply</a>
-      </div>
+        <div className="card">
+          <div className="free">1 month free</div>
+          <h2>Individual</h2>
+          <h3>$9.99/month after offer period</h3>
+          <h3>1 account</h3>
 
-      <div className="card">
-        <div>1 month free</div>
-        <h2>Individual</h2>
-        <h3>$9.99/month after offer period</h3>
-        <h3>1 account</h3>
+          <div className="tick">
+            <p>{tick} Listen to music ad free</p>
+            <p>{tick} Play anywhere - even offline</p>
+            <p>{tick} On-demand playback</p>
+            <p>{tick} 2 Premium accounts for a couple under one roof</p>
+          </div>
+          <div>
+            <button>GET STARTED</button>
+          </div>
 
-        <div className="tick">
-          <p>{tick} Listen to music ad free</p>
-          <p>{tick} Play anywhere - even offline</p>
-          <p>{tick} On-demand playback</p>
-          <p>{tick} 2 Premium accounts for a couple under one roof</p>
+          <a href="#home">Terms and conditions apply</a>
         </div>
-        <div>
-          <button>GET STARTED</button>
+
+        <div className="card">
+          <div className="free">1 month free</div>
+          <h2>Individual</h2>
+          <h3>$9.99/month after offer period</h3>
+          <h3>1 account</h3>
+
+          <div className="tick">
+            <p>{tick} Listen to music ad free</p>
+            <p>{tick} Play anywhere - even offline</p>
+            <p>{tick} On-demand playback</p>
+            <p>{tick} 2 Premium accounts for a couple under one roof</p>
+          </div>
+          <div>
+            <button>GET STARTED</button>
+          </div>
+
+          <a href="#home">Terms and conditions apply</a>
         </div>
 
-        <a href="#home">Terms and conditions apply</a>
+        <div className="card">
+          <div className="free">1 month free</div>
+          <h2>Individual</h2>
+          <h3>$9.99/month after offer period</h3>
+          <h3>1 account</h3>
+
+          <div className="tick">
+            <p>{tick} Listen to music ad free</p>
+            <p>{tick} Play anywhere - even offline</p>
+            <p>{tick} On-demand playback</p>
+            <p>{tick} 2 Premium accounts for a couple under one roof</p>
+          </div>
+          <div>
+            <button>GET STARTED</button>
+          </div>
+
+          <a href="#home">Terms and conditions apply</a>
+        </div>
       </div>
     </div>
   );
