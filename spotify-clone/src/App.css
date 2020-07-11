@@ -205,8 +205,9 @@ small.cancel-small {
   background: whitesmoke;
   width: 17.5vw;
   padding: 2.2rem;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   text-align: left;
+  box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .free {
