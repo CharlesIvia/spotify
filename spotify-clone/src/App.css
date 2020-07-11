@@ -194,10 +194,11 @@ small.cancel-small {
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .card {
@@ -220,6 +221,7 @@ small.cancel-small {
 .ticked {
   color: rgb(37, 36, 36);
   font-size: 2rem;
+  margin-right: 1rem;
 }
 
 .card-small {
@@ -238,10 +240,9 @@ small.cancel-small {
 }
 
 .buy-btn {
-  margin-top: 3rem;
-  margin-left: 3.8rem;
+  margin: 3rem 0;
   padding: 1.2rem;
-  width: 10vw;
+  width: 15vw;
   background: rgb(29, 185, 84);
   color: white;
   border: none;
@@ -252,4 +253,10 @@ small.cancel-small {
 .buy-btn:hover {
   transform: scale(1.1);
   background: rgb(48, 202, 102);
+}
+
+.terms-conditions {
+  font-size: 1.2rem;
+  color: grey;
+  padding-top: 3rem;
 }
