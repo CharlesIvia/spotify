@@ -36,14 +36,16 @@ function Plans() {
             <button className="buy-btn">GET STARTED</button>
           </div>
 
-          <a href="#home">Terms and conditions apply</a>
+          <a href="#home" className="terms-conditions">
+            Terms and conditions apply
+          </a>
         </div>
 
         <div className="card">
           <div className="free">1 month free</div>
           <h2>Duo</h2>
           <h3 className="card-small">$9.99/month after offer period</h3>
-          <h3 className="card-small">1 account</h3>
+          <h3 className="card-small">2 accounts</h3>
           <div className="line"></div>
           <div className="tick">
             <p>{tick} Listen to music ad free</p>
@@ -55,14 +57,16 @@ function Plans() {
             <button className="buy-btn">GET STARTED</button>
           </div>
 
-          <a href="#home">Terms and conditions apply</a>
+          <a href="#home" className="terms-conditions">
+            Terms and conditions apply
+          </a>
         </div>
 
         <div className="card">
           <div className="free">1 month free</div>
           <h2>Family</h2>
           <h3 className="card-small">$9.99/month after offer period</h3>
-          <h3 className="card-small">1 account</h3>
+          <h3 className="card-small">Upto 6 accounts</h3>
           <div className="line"></div>
           <div className="tick">
             <p>{tick} Listen to music ad free</p>
@@ -74,7 +78,9 @@ function Plans() {
             <button className="buy-btn">GET STARTED</button>
           </div>
 
-          <a href="#home">Terms and conditions apply</a>
+          <a href="#home" className="terms-conditions">
+            Terms and conditions apply
+          </a>
         </div>
 
         <div className="card">
@@ -93,7 +99,9 @@ function Plans() {
             <button className="buy-btn">GET STARTED</button>
           </div>
 
-          <a href="#home">Terms and conditions apply</a>
+          <a href="#home" className="terms-conditions">
+            Terms and conditions apply
+          </a>
         </div>
       </div>
     </div>
